@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { ChartCommonModule } from '../common/chart-common.module';
+
 import { AdvancedPieChartComponent } from './advanced-pie-chart.component';
+import { CetAdvancedPieChartComponent } from './cet-advanced-pie-chart.component';
 import { PieLabelComponent } from './pie-label.component';
 import { PieArcComponent } from './pie-arc.component';
 import { PieChartComponent } from './pie-chart.component';
@@ -12,6 +14,7 @@ import { PieSeriesComponent } from './pie-series.component';
   imports: [ChartCommonModule],
   declarations: [
     AdvancedPieChartComponent,
+    CetAdvancedPieChartComponent,
     PieLabelComponent,
     PieArcComponent,
     PieChartComponent,
@@ -21,6 +24,7 @@ import { PieSeriesComponent } from './pie-series.component';
   ],
   exports: [
     AdvancedPieChartComponent,
+    CetAdvancedPieChartComponent,
     PieLabelComponent,
     PieArcComponent,
     PieChartComponent,

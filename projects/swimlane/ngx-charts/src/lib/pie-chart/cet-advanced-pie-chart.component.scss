@@ -1,0 +1,17 @@
+.cet-advanced-pie-wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+
+  & > div {
+    display: flex;
+    &.chart {
+      justify-content: flex-end;
+    }
+    &.legend {
+      justify-content: flex-start;
+    }
+  }
+}

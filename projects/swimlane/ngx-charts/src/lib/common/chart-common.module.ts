@@ -20,6 +20,7 @@ import { LegendComponent } from './legend/legend.component';
 import { LegendEntryComponent } from './legend/legend-entry.component';
 import { ScaleLegendComponent } from './legend/scale-legend.component';
 import { AdvancedLegendComponent } from './legend/advanced-legend.component';
+import { CetAdvancedLegendComponent } from './legend/cet-advanced-legend.component';
 
 const COMPONENTS = [
   AreaComponent,
@@ -37,7 +38,8 @@ const COMPONENTS = [
   SvgLinearGradientComponent,
   SvgRadialGradientComponent,
   Timeline,
-  AdvancedLegendComponent
+  AdvancedLegendComponent,
+  CetAdvancedLegendComponent
 ];
 
 @NgModule({

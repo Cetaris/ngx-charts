@@ -1,0 +1,28 @@
+.cet-advanced-pie-legend {
+  width: 100%;
+
+  .cet-legend-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    .cet-legend-item-dot {
+      border-radius: 50%;
+      width: 16px;
+      height: 16px;
+    }
+
+    .cet-legend-item-label {
+      font-size: 16px;
+      margin: 8px;
+      color: #222222;
+      .cet-legend-item-value {
+        color: #3f7fb5;
+      }
+    }
+  }
+}
