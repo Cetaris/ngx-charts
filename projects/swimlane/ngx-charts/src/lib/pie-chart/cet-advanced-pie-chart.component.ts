@@ -28,7 +28,6 @@ import { DataItem } from '../models/chart-data.model';
                 [innerRadius]="innerRadius"
                 [activeEntries]="activeEntries"
                 [outerRadius]="outerRadius"
-                [gradient]="gradient"
                 [tooltipDisabled]="tooltipDisabled"
                 [tooltipTemplate]="tooltipTemplate"
                 [tooltipText]="tooltipText"
